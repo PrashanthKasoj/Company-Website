@@ -1,0 +1,94 @@
+html{
+scroll-behavior:smooth;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.main-header {
+    background: linear-gradient(55deg,whitesmoke,rgb(194, 31, 31));
+    padding: 12px;
+    box-shadow: 0 0 10px salmon;
+}
+    .main-header h1{
+	  color:  White;
+	  text-shadow:0 0 5px red;
+	}
+
+
+.nav-bar{
+    color:white;
+    padding: 5px;
+    background-color: salmon;
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    color:black;
+    padding: 10px 25px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.nav-bar a:hover{
+ background: linear-gradient(55deg,whitesmoke,lightblue);
+ border-radius: 50px;
+}
+.nav-bar a.active{
+    background:linear-gradient(50deg,whitesmoke,salmon);
+    border-radius: 40px;
+}
+.side-bar{
+    background: linear-gradient(55deg,whitesmoke,salmon);
+    float: left;
+    padding: 10px;
+    width:250px;
+    text-align: center;
+    height:800px;
+    position: sticky ;
+    top:0;
+    
+    
+}
+.side-bar a{
+    text-decoration: none;
+    display: block;
+    padding: 18px 25px;
+    font-size: 18px;
+    color: black;
+    box-shadow: 0 0 10px salmon;
+
+}
+.side-bar a:hover{
+    background: linear-gradient(25deg,whitesmoke,lightblue);
+    border-radius: 40px;
+}
+
+.main-content{
+    background-color: salmon;
+    margin-left: 270px;
+    padding:20px;
+    font-family: Arial,  sans-serif;
+    font-size: 18px;
+    
+
+}
+.main-content h2{
+    color:white;
+}
+.main-footer{
+    margin-left: 270px;
+    text-align: center;
+    background-color: salmon;
+    margin:0px;
+    color:white;
+}
+
+.main-footer a{
+   text-decoration: none;
+   color:orangered;
+   color:yellow
+}
+.main-footer h2{
+    margin:0;
+}
